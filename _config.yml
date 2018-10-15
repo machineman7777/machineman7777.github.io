@@ -1,1 +1,18 @@
-theme: jekyll-theme-cayman
+title:             MachineMan Blog
+email:             machinman7777@gmail.com
+description:       
+author:            MachineMan
+url:               "http://machineman7777.github.io"
+
+# Social Profiles
+twitter_username:  SBootstrap
+github_username:   BlackrockDigital
+facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
